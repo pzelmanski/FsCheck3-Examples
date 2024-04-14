@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cbce2a7f_002D7ff9_002D4510_002D9483_002Dd3e3095dbff3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::D2ECDAA4-2256-40D6-8758-09854E0A6EF8::net8.0::FsCheck3PBTests.PropertyBasedTests.Test2&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D2ECDAA4-2256-40D6-8758-09854E0A6EF8::net8.0::FsCheck3PBTests.SomeUnitTests.TestUsingPbtGenerator&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D2ECDAA4-2256-40D6-8758-09854E0A6EF8::net8.0::FsCheck3PBTests.SomeUnitTests.T1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D2ECDAA4-2256-40D6-8758-09854E0A6EF8::net8.0::FsCheck3PBTests.SomeUnitTests.T2&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
