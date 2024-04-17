@@ -42,6 +42,17 @@ public static class ComplexTypesGenerators
         });
     }
 
+    // Another way of using generators
+    public static Gen<Order> AnotherWayOfWritingGenerator()
+    {
+        return 
+            from name in NameGenerator()
+            from qty in Gen.Choose(1, 10)
+            from price in PriceGenerator()
+            from status in OrderStatusGenerator()
+            select new Order(Guid.NewGuid(), name, status, qty, qty * price);
+    }
+
     public static Arbitrary<Order> OrderArb() =>
         Arb.From(OrderGenerator());
 }
@@ -64,8 +75,8 @@ public class ComplexTypesTests
             Assert.True(order.Price >= 1);
         });
         prop.Check(Config.QuickThrowOnFailure
-                // Specify the generator class for the test
-            .WithArbitrary(new [] { typeof(ComplexTypesGenerators) }));
+            // Specify the generator class for the test
+            .WithArbitrary(new[] { typeof(ComplexTypesGenerators) }));
     }
 
     [Fact]
